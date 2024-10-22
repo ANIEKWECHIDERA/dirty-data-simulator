@@ -9,6 +9,13 @@
   font-family: "Inter", serif;
 }
 
+h2 {
+  color: #3d3c99;
+  font-family: "montserrat", serif;
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
 /* Gradient grid background */
 .grid-background {
   position: absolute;

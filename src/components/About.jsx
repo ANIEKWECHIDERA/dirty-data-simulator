@@ -6,9 +6,9 @@ const About = () => {
       <div className="border border-[#6666661A] rounded-2xl flex justify-between items-center w-[80%] mx-auto">
         <img src="" alt="" className="w-[47%]" />
         <div className="text-left w-[47%] py-5">
-          <h1 className="font-montserrat font-bold text-3xl text-[#3D3C99] mb-3">
+          <h3 className="font-montserrat font-bold text-3xl text-[#3D3C99] mb-3">
             About DirtifyData
-          </h1>
+          </h3>
           <p className="font-normal text-base text-[#333333] leading-7 mb-10">
             DirtifyData is dedicated to help data professional and students
             simulate real-world data cleaning challenges. Our platform makes it

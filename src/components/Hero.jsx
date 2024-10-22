@@ -1,8 +1,15 @@
 import React from "react";
+import backglow from "../assets/backglow.svg";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
+      <div className="absolute -top-[200px] -left-[900px] w-full -z-[1] opacity-50">
+        <img src={backglow} />
+      </div>
+      <div className="absolute bottom-[-100px] -right-[80px] w-full -z-[1] rotate-180 opacity-50">
+        <img src={backglow} />
+      </div>
       <div className="grid-background" />
       <div className="fade-overlay" />
       <div className="w-[80%] mx-auto flex justify-between">

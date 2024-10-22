@@ -13,14 +13,16 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-      <Hero />
-      <About />
-      <Features />
-      <HowItWorks />
-      <CTA />
-      <FAQ />
-      <Contact />
-      <Footer />
+      <div>
+        <Hero />
+        <About />
+        <Features />
+        <HowItWorks />
+        <CTA />
+        <FAQ />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 };

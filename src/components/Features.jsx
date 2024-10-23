@@ -12,7 +12,7 @@ const Features = () => {
           <h2 className="text-center mb-3">Why DirtifyData?</h2>
           <p className="text-[#333333] font-normal text-xl">
             A tool that is designed to turn clean data into real-world
-            challenges for practice
+            challenges for practice.
           </p>
         </div>
         <div className="flex w-full justify-between items-center">

@@ -7,7 +7,9 @@ const FeaturesCard = ({ icon, heading, text }) => {
       <h3 className="my-4 font-montserrat font-semibold text-xl text-[#18181B]">
         {heading}
       </h3>
-      <p className="text-[#666666] font-normal text-base leading-5">{text}</p>
+      <p className="text-[#666666] font-normal font text-base leading-5">
+        {text}
+      </p>
     </div>
   );
 };

@@ -4,9 +4,9 @@ const NavBar = () => {
   return (
     <div className=" w-full bg-[#12062A] text-white sticky top-0 py-3 border-b border-b-[#6467EF26] h-20 z-50">
       <div className="flex justify-between items-center w-[80%] mx-auto">
-        <logo className="font-urbanist font-bold tracking-[0.8px] text-2xl">
+        <h1 className="font-urbanist font-bold tracking-[0.8px] text-2xl">
           DIRTYDATA
-        </logo>
+        </h1>
         <ul className="flex justify-between gap-10 font-inter">
           <li>Home</li>
           <li>About</li>

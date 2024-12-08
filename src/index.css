@@ -43,3 +43,22 @@ h2 {
   background: radial-gradient(circle, #12062a71 50%, #12062a 100%);
   z-index: -4;
 }
+
+.curved-border {
+  border-top-left-radius: 9999px; /* Fully round the top-left corner */
+  border-bottom-left-radius: 9999px; /* Fully round the bottom-left corner */
+  padding: 16px; /* Add some padding for the content */
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  /* background: radial-gradient(circle, red 5%, yellow 100%); */
+}
+
+.cta-gradient {
+  background: linear-gradient(
+    to right,
+    #ffffff -20%,
+    #a5a7ff80,
+    #6467ef80,
+    transparent
+  );
+}

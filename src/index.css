@@ -7,6 +7,7 @@
 * {
   box-sizing: border-box;
   font-family: "Inter", serif;
+  /* outline: solid 1px; */
 }
 
 h2 {
@@ -61,4 +62,20 @@ h2 {
     #6467ef80,
     transparent
   );
+}
+
+.input-field {
+  width: 36.875rem;
+  height: 3.6875rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+.input-field:focus {
+  outline: none;
+  border: 2px solid #a5a7ff;
+}
+.text-area:focus {
+  outline: none;
+  border: 2px solid #a5a7ff;
 }

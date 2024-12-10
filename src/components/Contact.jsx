@@ -11,14 +11,14 @@ const Contact = () => {
             feedback.
           </p>
         </div>
-        <form>
-          <div className="grid grid-cols-2 gap-6 mt-6 ">
+        <form className="mt-8">
+          <div className="grid grid-cols-2 gap-6">
             <div>
               <label className="text-base text-[#66666699]" htmlFor="">
                 First Name
               </label>
               <input
-                className="border rounded input-field"
+                className="border rounded-lg input-field"
                 type="text"
                 name="FirstName"
               />
@@ -28,7 +28,7 @@ const Contact = () => {
                 Last Name
               </label>
               <input
-                className="border rounded input-field"
+                className="border rounded-lg input-field"
                 type="text"
                 name="LastName"
               />
@@ -38,7 +38,7 @@ const Contact = () => {
                 Email Address
               </label>
               <input
-                className="border rounded input-field"
+                className="border rounded-lg input-field"
                 type="email"
                 name="emailaddress"
               />
@@ -48,7 +48,7 @@ const Contact = () => {
                 Phone Number
               </label>
               <input
-                className="border rounded input-field"
+                className="border rounded-lg input-field"
                 type="text"
                 name="PhoneNumber"
               />
@@ -59,12 +59,15 @@ const Contact = () => {
               Message
             </label>
             <textarea
-              className="p-4 border rounded w-full mt-2 resize-none h-[17.5rem] text-area"
+              className="p-4 border rounded-lg w-full mt-2 resize-none h-[17.5rem] text-area"
               name=""
               id=""
               placeholder="Type message here..."
             ></textarea>
           </div>
+          <button className="mt-4 font-inter border text-white border-[#3D3C99] rounded-lg py-3 px-10 bg-[#3D3C99] hover:bg-[#1f1e64] hover:border-[#1f1e64] transition-colors">
+            Submit
+          </button>
         </form>
       </div>
     </div>

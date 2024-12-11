@@ -6,7 +6,6 @@ import {
   FaYoutube,
   FaInstagram,
 } from "react-icons/fa6";
-import { BsFillSendFill } from "react-icons/bs";
 
 const Footer = () => {
   return (

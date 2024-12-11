@@ -72,10 +72,12 @@ h2 {
 }
 
 .input-field:focus {
-  outline: none;
-  border: 2px solid #a5a7ff;
+  outline: 2px solid #a5a7ff;
 }
 .text-area:focus {
-  outline: none;
-  border: 2px solid #a5a7ff;
+  outline: 2px solid #a5a7ff;
+}
+
+.input-field-newsletter:focus {
+  outline: 2px solid #a5a7ff;
 }

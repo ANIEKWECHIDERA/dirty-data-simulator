@@ -1,10 +1,17 @@
 import React from "react";
 
 const About = () => {
+  const GoToUploadPage = () => {
+    window.location.href = "/upload";
+  };
   return (
     <div className="bg-[#F9F9FC] py-24">
       <div className="border border-[#6666661A] rounded-2xl flex justify-between items-center w-[80%] mx-auto">
-        <img src="" alt="" className="w-[47%]" />
+        <img
+          src="https://www.figma.com/file/TeFOetX7TvNye8QNTKq3Oj/image/ecf1c68b042a943a300851b25fe1787f287fa321"
+          alt=""
+          className="w-[47%]"
+        />
         <div className="text-left w-[47%] py-5">
           <h3 className="font-montserrat font-bold text-3xl text-[#3D3C99] mb-3">
             About DirtifyData
@@ -17,7 +24,10 @@ const About = () => {
             master messy data, preparing you for the complexities of real-world
             projects.
           </p>
-          <button className="font-medium transition-colors bg-[#3D3C99] hover:bg-[#1f1e64] text-white py-2 px-10 rounded-lg text-lg">
+          <button
+            onClick={GoToUploadPage}
+            className="font-medium transition-colors bg-[#3D3C99] hover:bg-[#1f1e64] text-white py-2 px-10 rounded-lg text-lg"
+          >
             Get Started
           </button>
         </div>
